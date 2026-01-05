@@ -1,0 +1,13 @@
+apiVersion: autopilot.argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: test-nginx
+spec:
+  source:
+    path: apps/nginx
+    repoURL: https://github.com/tapasvit20/argocd-autopilot.git
+    targetRevision: main
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: default
+  project: test
