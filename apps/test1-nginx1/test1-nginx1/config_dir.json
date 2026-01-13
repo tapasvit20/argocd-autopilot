@@ -1,0 +1,13 @@
+{
+  "appName": "test1-nginx1",
+  "userGivenName": "test1-nginx1",
+  "destNamespace": "default",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "nginx1",
+  "srcRepoURL": ".git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null,
+  "exclude": "",
+  "include": ""
+}
