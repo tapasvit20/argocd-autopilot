@@ -1,0 +1,13 @@
+{
+  "appName": "nginx8",
+  "userGivenName": "nginx8",
+  "destNamespace": "default",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "nginx8",
+  "srcRepoURL": ".git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null,
+  "exclude": "",
+  "include": ""
+}
