@@ -3,7 +3,7 @@
   "userGivenName": "nginx9",
   "destNamespace": "default",
   "destServer": "https://kubernetes.default.svc",
-  "srcPath": "nginx9",
+  "srcPath": "apps/nginx9/nginx",
   "srcRepoURL": "https://github.com/tapasvit20/argocd-autopilot.git",
   "srcTargetRevision": "main",
   "labels": null,
